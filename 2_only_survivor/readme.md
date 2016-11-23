@@ -14,3 +14,18 @@ As an example, if the game had 9 players, here's what would happen:
 8. `Player 3` knocks out `Player 7`
 
 `Player 3` is the winner. Your function should simply return the integer `3`.
+
+Here is a sample function prototype in PHP:
+
+```php
+/**
+ * Determine the winner of a game where each player knocks out the next player
+ * in line until only one survivor remains.
+ *
+ * @param   int   $players    Number of players who start the game.
+ * @return  int
+ */
+function onlySurvivor($players) {
+  
+}
+```

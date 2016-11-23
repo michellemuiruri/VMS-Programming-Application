@@ -39,6 +39,19 @@ The correct e-mails that may be obtained from this pattern are:
 Your function should accept a single string containing the test pattern:
 
 ```php
+/**
+ * Counts number of valid email addresses can be formed using the given pattern.
+ * Email address is valid if it:
+ *
+ * 1. Starts with one or more non-empty groups of characters a - e separated by
+ *    a period,
+ * 2. Contains exactly one "@" symbol, and
+ * 3. Ends with two or more non-empty groups of characters a - e separated by
+ *    a period.
+ *
+ * @param   string  $pattern      Email address pattern to test.
+ * @return  int
+ */
 function correctEmails($pattern) {
 
 }
