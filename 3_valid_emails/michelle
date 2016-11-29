@@ -1,0 +1,24 @@
+/**
+ * Counts number of valid email addresses can be formed using the given pattern.
+ * Email address is valid if it:
+ *
+ * 1. Starts with one or more non-empty groups of characters a - e separated by
+ *    a period,
+ * 2. Contains exactly one "@" symbol, and
+ * 3. Ends with two or more non-empty groups of characters a - e separated by
+ *    a period.
+ *
+ * @param   string  $pattern      Email address pattern to test.
+ * @return  int
+ */
+<?php
+$email_a = 'ane@example.com';
+$email_b = 'john@example.com''ben@example.com;
+
+if (filter_var($email_a, FILTER_VALIDATE_EMAIL)) {
+    echo "This ($email_a) email address is considered valid.";
+}
+if (filter_var($email_b, FILTER_VALIDATE_EMAIL)) {
+    echo "This ($email_b) email address is considered valid.";
+}
+?>
