@@ -1,0 +1,28 @@
+/**
+ * Determine the winner of a game where each player knocks out the next player
+ * in line until only one survivor remains.
+ *
+ * @param   int   $players=7    Number of players who start the game.
+ * @return  int   $player3 
+ */
+function onlySurvivor($players) {
+
+}
+
+
+$Players = 7;
+$maxPlayers = 7;
+$survivor = '';
+ 
+    if(sizeof($data) == 3)
+    {
+        $survivor = $data[0];
+        $winningPlayer = (int) $data[1];
+        $maxPlayers = (int) $data[2];
+      
+        echo $winningPlayer;
+    }else{
+        echo 'Player3.';
+}
+ 
+?>
